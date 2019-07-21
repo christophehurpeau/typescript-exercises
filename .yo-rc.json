@@ -1,0 +1,14 @@
+{
+  "pob": {
+    "promptValues": {
+      "authorName": "Christophe Hurpeau",
+      "authorEmail": "christophe@hurpeau.com",
+      "authorUrl": ""
+    },
+    "monorepo": {
+      "ci": false,
+      "packageNames": [],
+      "typescript": false
+    }
+  }
+}

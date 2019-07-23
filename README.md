@@ -3,13 +3,23 @@
 </h3>
 
 <p align="center">
-  
+  typescript exercises
 </p>
 
-<h1>Packages</h1>
+<p align="center">
+  <a href="https://david-dm.org/christophehurpeau/typescript-exercises"><img src="https://david-dm.org/christophehurpeau/typescript-exercises.svg?style=flat-square"></a>
+</p>
 
-This repository is a monorepo that we manage using [Lerna](https://github.com/lerna/lerna).
+## Install
 
-| Package | Version | Description |
-|---------|---------|-------------|
+```bash
+npm install --save typescript-exercises
+```
 
+## Usage
+
+```js
+import typescriptExercises from 'typescript-exercises';
+
+console.log(typescriptExercises);
+```

@@ -3,12 +3,40 @@
     "promptValues": {
       "authorName": "Christophe Hurpeau",
       "authorEmail": "christophe@hurpeau.com",
-      "authorUrl": ""
+      "authorUrl": "https://christophe.hurpeau.com"
+    },
+    "renovate": {
+      "enable": false
     },
     "monorepo": {
       "ci": false,
-      "packageNames": [],
-      "typescript": false
+      "typescript": false,
+      "packageNames": []
+    },
+    "pob-config": {
+      "entries": [
+        "index"
+      ],
+      "withReact": true,
+      "documentation": false,
+      "testing": {
+        "circleci": false,
+        "codecov": false
+      },
+      "envs": [
+        {
+          "target": "node",
+          "version": "10",
+          "formats": [
+            "cjs"
+          ]
+        }
+      ]
+    }
+  },
+  "typescript-exercises": {
+    "type": {
+      "type": "lib"
     }
   }
 }

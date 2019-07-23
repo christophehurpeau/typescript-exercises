@@ -1,0 +1,11 @@
+{
+  "env": {
+    "test": {
+      "only": ["src/"],
+      "presets": [
+        ["pob-babel/preset"],
+        "@babel/preset-react"
+      ]
+    }
+  }
+}

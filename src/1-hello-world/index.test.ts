@@ -6,7 +6,7 @@ describe('Hello World', () => {
   });
 
   it('says hello to John', () => {
-    expect(sayHello('John')).toBe('Hello, Bob!');
+    expect(sayHello('John')).toBe('Hello, John!');
   });
 
   it('says hello to Jane', () => {

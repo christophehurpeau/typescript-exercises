@@ -17,12 +17,12 @@ describe('Animal', () => {
 
   it('should say a dog barks', () => {
     const cat = new Cat();
-    expect(cat.makeSound()).toBe('barks');
+    expect(cat.makeSound()).toBe('meows');
   });
 
   it('should say a cat meows', () => {
     const dog = new Dog();
-    expect(dog.makeSound()).toBe('meows');
+    expect(dog.makeSound()).toBe('barks');
   });
 
   it('should say a hamster squeaks', () => {
